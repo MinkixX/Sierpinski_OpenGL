@@ -60,7 +60,7 @@ struct ShaderStrings
 {
 	char vertex[1024];
 	char fragment[1024];
-} typedef ShaderStrings;
+};
 
 
 static ShaderStrings ParseShader(const char* path)
